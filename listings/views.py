@@ -1,7 +1,7 @@
 from django.shortcuts import render
 
 
-def listings(request):
+def index(request):
     return render(request, 'listings/listings.html')
 
 
